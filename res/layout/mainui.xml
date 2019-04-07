@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/background"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="30dip"
+              android:id="@+id/main_content">
+	<LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp" 
+            android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/titleMain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="30dp"
+            android:text="@string/app_name"
+            android:textSize="50sp"
+             />
+
+        <Button
+            android:id="@+id/pap_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/roundbutton"
+            android:paddingTop="20dp"
+            android:text="@string/pass_and_play_label"
+            android:textSize="30sp"
+            />
+
+        <Button
+                android:id="@+id/two_player_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:text="@string/two_player_label"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:paddingBottom="20dp" android:paddingTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+        <Button
+                android:id="@+id/about_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:text="@string/about_label" 
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:paddingBottom="20dp" android:paddingTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+        <Button
+                android:id="@+id/help_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:text="@string/help_label"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:paddingBottom="20dp" android:paddingTop="20dp"
+                android:layout_marginBottom="20dp" 
+                />
+        <Button
+                android:id="@+id/exit_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:text="@string/exit_label"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:paddingBottom="20dp" android:paddingTop="20dp"
+                android:layout_marginBottom="20dp"
+               />
+    </LinearLayout>
+</LinearLayout>

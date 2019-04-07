@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"	 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background">	
+	<com.example.newbataan.BoardView
+		android:id="@+id/boardViewBlueTooth"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"/>	
+	<TableLayout
+	 	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="right|top">
+    	<TextView 
+        			android:id="@+id/statusGame"
+        			android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:text="WAITING FOR CLIENT TO CONTROL AMERICAN TROOPS"
+      				android:paddingTop="10dp"
+    				android:textSize="25sp"
+    				android:layout_gravity="center_horizontal"
+    				android:gravity="center"
+    			    android:textStyle="bold"
+    				android:textColor="#66FFFF"
+    				android:shadowColor="#FFFF99"
+    				android:shadowDx="3"
+     		    	android:shadowDy="3"
+     		    	android:shadowRadius="1.5"/>
+    <LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="horizontal" >  	    
+    	    <TextView
+    		    android:id="@+id/JapaneseScoreB"
+    		    android:layout_width="300dp"
+    		    android:layout_height="wrap_content"
+    		    android:gravity="center"
+    		    android:shadowColor="#FFCC00"
+    		    android:shadowDx="3"
+    		    android:shadowDy="3"
+    		    android:shadowRadius="1.5"
+    		    android:text="Japanese"
+    		    android:textColor="#FF0000"
+    		    android:textSize="35sp"
+    		    android:textStyle="bold" 
+    		    android:textAlignment="center"/>
+    	    <TextView
+    		    android:id="@+id/AmericanScoreB"
+    		    android:layout_width="300dp"
+    		    android:layout_height="wrap_content"
+    		    android:gravity="center"
+    		    android:shadowColor="#00CCFF"
+    		    android:shadowDx="3"
+    		    android:shadowDy="3"
+    		    android:shadowRadius="1.5"
+    		    android:text="American"
+    		    android:textColor="#0000FF"
+    		    android:textSize="35sp"
+    		    android:textStyle="bold" 
+    		    android:textAlignment="center"/>
+	    
+    	    </LinearLayout>	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="horizontal" >
+    		<TextView
+    		    android:id="@+id/JapScoreB"
+    		    android:layout_width="300dp"
+    		    android:layout_height="wrap_content"
+    		    android:gravity="center"
+    		    android:shadowColor="#FFCC00"
+    		    android:shadowDx="3"
+    		    android:shadowDy="3"
+    		    android:shadowRadius="1.5"
+    		    android:text="0"
+    		    android:textColor="#FF0000"
+    		    android:textSize="35sp"
+    		    android:textStyle="bold" 
+				/>
+        
+     		<TextView
+     		    android:id="@+id/AmScoreB"
+     		    android:layout_width="300dp"
+     		    android:layout_height="wrap_content"
+     		    android:gravity="center"
+     		    android:shadowColor="#00CCFF"
+     		    android:shadowDx="3"
+     		    android:shadowDy="3"
+     		    android:shadowRadius="1.5"
+     		    android:text="0"
+     		    android:textColor="#0000FF"
+     		    android:textSize="35sp"
+     		    android:textStyle="bold" 
+     		    />
+        	</LinearLayout>
+	
+    </TableLayout>
+    <TableLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="bottom">
+        <LinearLayout 
+        	    android:layout_width="fill_parent"
+    	    	android:layout_height="wrap_content"
+    	    	android:orientation="horizontal">
+     		<Button
+            		android:id="@+id/drawButton"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="GAME NOT STARTED"
+            		android:background="@drawable/roundbutton"
+            		android:layout_gravity="center"
+                	android:textSize="30sp"
+                	/>
+        	    
+        	  
+       </LinearLayout>
+    </TableLayout>
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">BATAAN THE BATTLE OF THE PHILIPPINES</string>
+    <string name="short_aname">Bataan</string>
+    <string name="pass_and_play_label">Pass and Play</string>
+    <string name="two_player_label">Multiplayer</string>
+    <string name="about_label">About</string>
+    <string name="help_label">How to Play</string>
+    <string name="exit_label">Exit</string>
+    <string name="createGame_label">Create Game</string>
+    <string name="joinGame_label">Join Game</string>
+
+    <string name="about_title">About Bataan: TBOTP Board Game</string>
+    <string name="about_txt">Bataan: TBOTP Board Game is a churvabelsss tiwasi ng jema2 tawn </string>
+
+
+    <!-- deive List -->
+    <string name="device_list_title">Paired Device</string>
+    <string name="scan_device">Scan for Devices</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="scanning">Scanning for devices</string>
+    <string name="select_device">select a device to connect</string>
+
+    <!-- Bluetooth Chat-->
+    <string name="not_connected_title"> You Are Not Connected To the Network </string>
+    <string name="not_enabled_leaving">Bluetooth was not enabled. Leaving.</string>
+   	<string name="connected_title">Connection Notice: Connected to -> <xliff:g id="device_name">%$s</xliff:g></string>
+    <string name="not_you_turn">Please wait for <xliff:g id="device_name">%$s</xliff:g>to Move</string>
+	<string name="connecting_title">Connecting to <xliff:g id="device_name">%1$s</xliff:g> </string>
+</resources>
